@@ -8,7 +8,7 @@ RimFlix can be safely added to and removed from existing games.
 
 ## How to create a show
 1. Click the **Create Show** button
-2. Browse to a directory that contains images you want to include in your show. All images in the directory will be included. (Hint: You can click an image in the file browser to see previews of how they will look with each TV type.)
+2. Browse to a directory that contains images you want to include in your show. All images in the directory will be included. You can click an image in the file browser to see how they will look in game.
 3. Enter a name for your show.
 4. Enter a time interval between images for your show.
 5. Select the types of TVs on which you want your show to be played. 
@@ -34,6 +34,9 @@ You can add shows others have created either from Steam Workshop or Github. <a h
 
 ## Artists and animators
 You can create and share RimFlix shows by uploading them to Steam Workshop. No coding is required. You only need the image files and an XML file that defines each show. For an example of a mod with several shows featuring animation loops, see <a href = "https://github.com/ritsu/RimFlix-Anime-Loops">RimFlix - Anime Loops</a>. Other players can add your shows to their game as long as they have the RimFlix mod installed. 
+
+## Translators
+If you would like to help translate the settings and menu options, please contact me or submit a pull request, thanks!
 
 
 
