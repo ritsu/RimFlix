@@ -534,28 +534,9 @@ namespace RimFlix
             Rect statusRect = topRect.RightPartPixels(statusWidth);
             Rect showsRect = rect.BottomPartPixels(showsHeight);
 
-            float padding = topRect.width - optionsRect.width - statusRect.width;
-            //Widgets.DrawLineVertical(optionsRect.width + padding / 2, rect.y, optionsRect.height - 12);
-
             DoOptions(optionsRect);
             DoStatus(statusRect);
             DoShows(showsRect);
-
-            // Debug
-            /*
-            if (Mouse.IsOver(optionsRect))
-            {
-                Widgets.DrawBox(optionsRect);
-            }
-            if (Mouse.IsOver(statusRect))
-            {
-                Widgets.DrawBox(statusRect);
-            }
-            if (Mouse.IsOver(showsRect))
-            {
-                Widgets.DrawBox(showsRect);
-            }
-            */
 
             base.DoSettingsWindowContents(rect);
         }
