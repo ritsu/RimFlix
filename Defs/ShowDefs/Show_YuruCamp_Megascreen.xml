@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <RimFlix.ShowDef>
+    <defName>YuruCamp_Megascreen</defName>
+    <label>Yuru Camp - Megascreen</label>
+    <description>Images from Yuru Camp</description>
+    <televisionDefs>
+      <li>MegascreenTelevision</li>
+    </televisionDefs>
+    <secondsBetweenFrames>8</secondsBetweenFrames>
+    <sound />
+    <frames>
+      <li>
+        <texPath>Shows/YuruCamp/Megascreen_YuruCamp_00</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/YuruCamp/Megascreen_YuruCamp_01</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/YuruCamp/Megascreen_YuruCamp_02</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/YuruCamp/Megascreen_YuruCamp_03</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/YuruCamp/Megascreen_YuruCamp_04</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+    </frames>
+  </RimFlix.ShowDef>
+
+</Defs>

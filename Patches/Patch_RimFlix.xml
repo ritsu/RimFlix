@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/JobDef[defName="WatchTelevision"]/driverClass</xpath>
+    <value>
+      <driverClass>RimFlix.JobDriver_WatchRimFlix</driverClass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName = 'TubeTelevision' or defName = 'FlatscreenTelevision' or defName = 'MegascreenTelevision']</xpath>
+    <value>
+      <drawerType>RealtimeOnly</drawerType>
+      <tickerType>Normal</tickerType>
+    </value>
+  </Operation>
+
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TubeTelevision"]/comps</xpath>
+    <value>
+      <li Class="RimFlix.CompProperties_Screen"/>
+    </value>
+  </Operation>  
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="FlatscreenTelevision"]/comps</xpath>
+    <value>
+      <li Class="RimFlix.CompProperties_Screen"/>
+    </value>
+  </Operation>  
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="MegascreenTelevision"]/comps</xpath>
+    <value>
+      <li Class="RimFlix.CompProperties_Screen"/>
+    </value>
+  </Operation>  
+  
+</Patch>

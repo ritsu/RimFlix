@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <RimFlix_Title>RimFlix</RimFlix_Title>
+
+  <RimFlix_SecondsBetweenShowsLabel>Seconds until pawns change shows</RimFlix_SecondsBetweenShowsLabel>
+  <RimFlix_SecondsBetweenShowsTooltip>If a TV is set to allow pawns to change shows, it will switch shows after pawns have watched the same show for this many seconds.</RimFlix_SecondsBetweenShowsTooltip>
+  <RimFlix_SecondsBetweenShowsUnits>seconds</RimFlix_SecondsBetweenShowsUnits>
+  
+  <RimFlix_PlayAlwaysLabel>Play shows when no pawns are watching</RimFlix_PlayAlwaysLabel>
+  <RimFlix_PlayAlwaysTooltip>If enabled, TVs will continue to play shows even when no pawns are watching.</RimFlix_PlayAlwaysTooltip>  
+  <RimFlix_PowerConsumptionOnLabel>Power consumption when playing</RimFlix_PowerConsumptionOnLabel>
+  <RimFlix_PowerConsumptionOnTooltip>When a TV is playing a show, its power consumption will be multiplied by this percentage. 100% is the same as RimWorld default.</RimFlix_PowerConsumptionOnTooltip>
+  <RimFlix_PowerConsumptionOffLabel>Power consumption when not playing</RimFlix_PowerConsumptionOffLabel>
+  <RimFlix_PowerConsumptionOffTooltip>When a TV not playing anything, its power consumption will be multiplied by this percentage. 100% is the same as RimWorld default.</RimFlix_PowerConsumptionOffTooltip>
+  <RimFlix_DrawTypeLabel>Resize images to TV screen using</RimFlix_DrawTypeLabel>
+  <RimFlix_DrawTypeTooltip>Images will be resized to the screen frame according to this method.</RimFlix_DrawTypeTooltip>
+  <RimFlix_DrawTypeStretch>Stretch</RimFlix_DrawTypeStretch>
+  <RimFlix_DrawTypeFit>Fit</RimFlix_DrawTypeFit>
+  <RimFlix_DrawTypeFill>Fill</RimFlix_DrawTypeFill>
+  
+  <RimFlix_ShowsLabel>Current Shows</RimFlix_ShowsLabel>
+  <RimFlix_AddShowButton>Create Show</RimFlix_AddShowButton>
+  <RimFlix_EditShowButton>Save Changes</RimFlix_EditShowButton>
+  <RimFlix_AddShowTooltip>Create a new show using images on a local drive</RimFlix_AddShowTooltip>
+  <RimFlix_AddShowTooltip2>Create a new show using all images in the currect directory</RimFlix_AddShowTooltip2>
+  <RimFlix_NameHeader>Show Name</RimFlix_NameHeader>
+  <RimFlix_FramesHeader>Images</RimFlix_FramesHeader>
+  <RimFlix_SecFrameHeader>Sec/Img</RimFlix_SecFrameHeader>
+  <RimFlix_ActionsHeader>Actions</RimFlix_ActionsHeader>
+  <RimFlix_SortHeader>Sort by</RimFlix_SortHeader>
+  <RimFlix_EnableButton>Enable</RimFlix_EnableButton>
+  <RimFlix_DisableButton>Disable</RimFlix_DisableButton>
+  <RimFlix_EditButton>Edit</RimFlix_EditButton>
+  <RimFlix_DeleteButton>Delete</RimFlix_DeleteButton>
+  <RimFlix_UserShowLabel>Custom</RimFlix_UserShowLabel>
+  <RimFlix_ConfirmDelete>Are you sure you want to delete {0}?</RimFlix_ConfirmDelete>
+  
+  <RimFlix_CurrentDirectoryLabel>Current Dir:</RimFlix_CurrentDirectoryLabel>
+  <RimFlix_FramesLabel>{0} images in current directory</RimFlix_FramesLabel>
+  <RimFlix_FrameLabel>{0} image in current directory</RimFlix_FrameLabel>
+  <RimFlix_InfoLabel>All images will be added to show</RimFlix_InfoLabel>
+  <RimFlix_NameLabel>Show name:</RimFlix_NameLabel>
+  <RimFlix_DefaultName>My Show</RimFlix_DefaultName>
+  <RimFlix_TimeLabel>Time between images:</RimFlix_TimeLabel>
+  <RimFlix_TimeSeconds>seconds</RimFlix_TimeSeconds>
+  <RimFlix_TimeSecond>second</RimFlix_TimeSecond>
+  <RimFlix_TimeTicks>ticks</RimFlix_TimeTicks>
+  <RimFlix_PlayLabel>Play show on:</RimFlix_PlayLabel>
+  <RimFlix_CustomDescPrefix>Custom show in {0} last modified {1}</RimFlix_CustomDescPrefix>
+  <RimFlix_CancelButton>Cancel</RimFlix_CancelButton>
+  <RimFlix_CancelTooltip>Close window without creating new show</RimFlix_CancelTooltip>
+  <RimFlix_FileNotFound>File not found</RimFlix_FileNotFound>
+  <RimFlix_DirNotFound>Directory not found: {0}</RimFlix_DirNotFound>
+  <RimFlix_NoShowName>Please enter a show name</RimFlix_NoShowName>
+  <RimFlix_NoTelevisionType>Please select at least one television type</RimFlix_NoTelevisionType>
+  <RimFlix_LoadError>Error trying to create show. See debug log for more info.</RimFlix_LoadError>
+  <RimFlix_Note01>If creating a show with many large images, it may take a while to load the textures. Please be patient.</RimFlix_Note01>
+
+  <RimFlix_PreviewLabel>Previews for</RimFlix_PreviewLabel>
+  
+  <RimFlix_AdjustSreenTitle>Adjust screen size and position</RimFlix_AdjustSreenTitle>
+  <RimFlix_XScale>X Scale</RimFlix_XScale>
+  <RimFlix_YScale>Y Scale</RimFlix_YScale>
+  <RimFlix_XOffset>X Offset</RimFlix_XOffset>
+  <RimFlix_YOffset>Y Offset</RimFlix_YOffset>
+  <RimFlix_DefaultScreen>Default</RimFlix_DefaultScreen>
+  
+  <RimFlix_AllowPawnLabel>Allow pawns to control </RimFlix_AllowPawnLabel>
+  <RimFlix_AllowPawnDesc>Allow pawns to change shows when watching this television</RimFlix_AllowPawnDesc>
+
+  <RimFlix_SelectShowLabel>Select show</RimFlix_SelectShowLabel>
+  <RimFlix_SelectShowDesc>Select show to display on this television</RimFlix_SelectShowDesc>
+  
+  <RimFlix_NextShowLabel>Next show</RimFlix_NextShowLabel>
+  <RimFlix_NextShowDesc>Skip to next show</RimFlix_NextShowDesc>
+  
+</LanguageData>

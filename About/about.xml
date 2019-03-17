@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>RimFlix</name>
+    <author>aznplucky</author>
+    <supportedVersions>
+        <li>1.0</li>
+    </supportedVersions>
+    <description>Create shows from custom images and play them on television screens.
+
+Players:
+• Display images and photos from your computer on your RimWorld televisions!
+• Adjust timings to create smooth animations or simple slideshows.
+• Manually control which shows play, or allow  pawns to change shows themselves.
+• Play shows continuously or only when pawns are watching.
+• Optionally adjust power consumption of TVs when being watched vs. idle.
+
+Artists and Animators:
+• Create and share shows with the RimWorld community!
+• No coding required. Just create your images and XML file, then upload to Steam Workshop.
+• See https://github.com/ritsu/RimFlix-Anime-Loops for an exmaple.
+    </description>
+</ModMetaData>

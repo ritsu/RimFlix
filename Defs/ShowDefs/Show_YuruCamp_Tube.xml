@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <RimFlix.ShowDef>
+    <defName>YuruCamp_Tube</defName>
+    <label>Yuru Camp - Tube</label>
+    <description>Images from Yuru Camp</description>
+    <televisionDefs>
+      <li>TubeTelevision</li>
+    </televisionDefs>
+    <secondsBetweenFrames>8</secondsBetweenFrames>
+    <sound />
+    <frames>
+      <li>
+        <texPath>Shows/YuruCamp/Tube_YuruCamp_00</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/YuruCamp/Tube_YuruCamp_01</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/YuruCamp/Tube_YuruCamp_02</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/YuruCamp/Tube_YuruCamp_03</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/YuruCamp/Tube_YuruCamp_04</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+    </frames>
+  </RimFlix.ShowDef>
+
+</Defs>

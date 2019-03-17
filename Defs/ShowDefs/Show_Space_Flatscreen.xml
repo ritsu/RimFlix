@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <RimFlix.ShowDef>
+    <defName>Space_Flatscreen</defName>
+    <label>Space - Flatscreen</label>
+    <description>Images of space and the Rimworld planet</description>
+    <televisionDefs>
+      <li>FlatscreenTelevision</li>
+    </televisionDefs>
+    <secondsBetweenFrames>8</secondsBetweenFrames>
+    <sound />
+    <frames>
+      <li>
+        <texPath>Shows/Space/Flatscreen_Space_00</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Space/Flatscreen_Space_01</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Space/Flatscreen_Space_02</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Space/Flatscreen_Space_03</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Space/Flatscreen_Space_04</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Space/Flatscreen_Space_05</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Space/Flatscreen_Space_06</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+      <li>
+        <texPath>Shows/Space/Flatscreen_Space_07</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </li>
+    </frames>
+  </RimFlix.ShowDef>
+
+</Defs>
