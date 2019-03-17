@@ -25,7 +25,7 @@ namespace RimFlix
                         }
                         else
                         {
-                            show.SortName = $"{show.modContentPack} : {show.label}";
+                            show.SortName = $"{show.modContentPack.Name} : {show.label}";
                         }
                         show.disabled = this.settings.DisabledShows == null ? false : this.settings.DisabledShows.Contains(show.defName);
                     }
