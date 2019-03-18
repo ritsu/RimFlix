@@ -3,9 +3,9 @@
 <Defs>
 
   <RimFlix.ShowDef>
-    <defName>YuruCamp_Tube</defName>
-    <label>Yuru Camp - Tube</label>
-    <description>Images from Yuru Camp</description>
+    <defName>Landscapes_Tube</defName>
+    <label>Landscapes - Tube</label>
+    <description>Images of landscapes and scenery</description>
     <televisionDefs>
       <li>TubeTelevision</li>
     </televisionDefs>
@@ -13,23 +13,23 @@
     <sound />
     <frames>
       <li>
-        <texPath>Shows/YuruCamp/Tube_YuruCamp_00</texPath>
+        <texPath>Shows/Landscapes/Tube_Landscapes_00</texPath>
         <graphicClass>Graphic_Single</graphicClass>
       </li>
       <li>
-        <texPath>Shows/YuruCamp/Tube_YuruCamp_01</texPath>
+        <texPath>Shows/Landscapes/Tube_Landscapes_01</texPath>
         <graphicClass>Graphic_Single</graphicClass>
       </li>
       <li>
-        <texPath>Shows/YuruCamp/Tube_YuruCamp_02</texPath>
+        <texPath>Shows/Landscapes/Tube_Landscapes_02</texPath>
         <graphicClass>Graphic_Single</graphicClass>
       </li>
       <li>
-        <texPath>Shows/YuruCamp/Tube_YuruCamp_03</texPath>
+        <texPath>Shows/Landscapes/Tube_Landscapes_03</texPath>
         <graphicClass>Graphic_Single</graphicClass>
       </li>
       <li>
-        <texPath>Shows/YuruCamp/Tube_YuruCamp_04</texPath>
+        <texPath>Shows/Landscapes/Tube_Landscapes_04</texPath>
         <graphicClass>Graphic_Single</graphicClass>
       </li>
     </frames>

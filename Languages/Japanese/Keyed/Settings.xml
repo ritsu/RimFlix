@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RimFlix_Title>RimFlix</RimFlix_Title>
+
+  <RimFlix_SecondsBetweenShowsLabel>ポーン視聴中の番組変更時間</RimFlix_SecondsBetweenShowsLabel>
+  <RimFlix_SecondsBetweenShowsTooltip>ポーンが番組を変更可能にテレビが設定されている場合、ポーンがこの秒数の間同じ番組を見た後に番組が切り替わります。</RimFlix_SecondsBetweenShowsTooltip>
+  <RimFlix_SecondsBetweenShowsUnits>秒</RimFlix_SecondsBetweenShowsUnits>
+
+  <RimFlix_PlayAlwaysLabel>誰も視てない時も番組を放送</RimFlix_PlayAlwaysLabel>
+  <RimFlix_PlayAlwaysTooltip>有効にすると、ポーンが見てなくてもテレビは番組を放送し続けます。</RimFlix_PlayAlwaysTooltip>
+  <RimFlix_PowerConsumptionOnLabel>視聴時の電力消費率</RimFlix_PowerConsumptionOnLabel>
+  <RimFlix_PowerConsumptionOnTooltip>テレビが番組を放送している場合、その電力消費量はこの割合で乗算されます。\n100％ならRimWorldの初期値と同じです。</RimFlix_PowerConsumptionOnTooltip>
+  <RimFlix_PowerConsumptionOffLabel>視聴してない時の電力消費率</RimFlix_PowerConsumptionOffLabel>
+  <RimFlix_PowerConsumptionOffTooltip>テレビが何も放送してない場合、その電力消費量にこの割合が乗算されます。\n100％ならRimWorldの初期値と同じです。</RimFlix_PowerConsumptionOffTooltip>
+  <RimFlix_DrawTypeLabel>TVの種類に合わせて画面サイズを変更</RimFlix_DrawTypeLabel>
+  <RimFlix_DrawTypeTooltip>画像はTV画面枠に合わせてサイズが変更されます。</RimFlix_DrawTypeTooltip>
+  <RimFlix_DrawTypeStretch>伸長</RimFlix_DrawTypeStretch>
+  <RimFlix_DrawTypeFit>合せる</RimFlix_DrawTypeFit>
+  <RimFlix_DrawTypeFill>フル</RimFlix_DrawTypeFill>
+
+  <RimFlix_ShowsLabel>現在の番組</RimFlix_ShowsLabel>
+  <RimFlix_AddShowButton>番組を作成</RimFlix_AddShowButton>
+  <RimFlix_EditShowButton>変更を保存</RimFlix_EditShowButton>
+  <RimFlix_AddShowTooltip>ローカルドライブの画像を使って新しい番組を作成する</RimFlix_AddShowTooltip>
+  <RimFlix_AddShowTooltip2>現在のディレクトリ内すべての画像を使用して新しい番組を作成する</RimFlix_AddShowTooltip2>
+  <RimFlix_NameHeader>番組名</RimFlix_NameHeader>
+  <RimFlix_FramesHeader>番組画像</RimFlix_FramesHeader>
+  <RimFlix_SecFrameHeader>秒/画</RimFlix_SecFrameHeader>
+  <RimFlix_ActionsHeader>実行</RimFlix_ActionsHeader>
+  <RimFlix_SortHeader>ソート</RimFlix_SortHeader>
+  <RimFlix_EnableButton>有効</RimFlix_EnableButton>
+  <RimFlix_DisableButton>無効</RimFlix_DisableButton>
+  <RimFlix_EditButton>編集</RimFlix_EditButton>
+  <RimFlix_DeleteButton>削除</RimFlix_DeleteButton>
+  <RimFlix_UserShowLabel>カスタム</RimFlix_UserShowLabel>
+  <RimFlix_ConfirmDelete>本当に{0}を削除しますか？</RimFlix_ConfirmDelete>
+
+  <RimFlix_CurrentDirectoryLabel>現在のディレクトリ：</RimFlix_CurrentDirectoryLabel>
+  <RimFlix_FramesLabel>現在の番組は{0}枚の画像フレーム数</RimFlix_FramesLabel>
+  <RimFlix_FrameLabel>現在の番組は{0}枚の画像フレーム数</RimFlix_FrameLabel>
+  <RimFlix_InfoLabel>すべての画像が番組に追加されます</RimFlix_InfoLabel>
+  <RimFlix_NameLabel>番組名：</RimFlix_NameLabel>
+  <RimFlix_DefaultName>私の番組</RimFlix_DefaultName>
+  <RimFlix_TimeLabel>1コマの時間：</RimFlix_TimeLabel>
+  <RimFlix_TimeSeconds>秒</RimFlix_TimeSeconds>
+  <RimFlix_TimeSecond>秒</RimFlix_TimeSecond>
+  <RimFlix_TimeTicks>チック</RimFlix_TimeTicks>
+  <RimFlix_PlayLabel>番組を再生するTV：</RimFlix_PlayLabel>
+  <RimFlix_CustomDescPrefix>カスタム番組{0}の最終更新{1}</RimFlix_CustomDescPrefix>
+  <RimFlix_CancelButton>中止</RimFlix_CancelButton>
+  <RimFlix_CancelTooltip>新しい番組を作成せずにウィンドウを閉じる</RimFlix_CancelTooltip>
+  <RimFlix_FileNotFound>ファイルが見つかりません</RimFlix_FileNotFound>
+  <RimFlix_DirNotFound>ディレクトリが見つかりません：{0}</RimFlix_DirNotFound>
+  <RimFlix_NoShowName>番組名を入力してください</RimFlix_NoShowName>
+  <RimFlix_NoTelevisionType>最低1種類のテレビを選択してください</RimFlix_NoTelevisionType>
+  <RimFlix_LoadError>番組を作成時にエラーが発生しました。詳細はデバッグログを参照してください。</RimFlix_LoadError>
+  <RimFlix_Note01>大きな画像を沢山含む番組を作成する場合、画像を読み込むのに時間がかかることがあります。</RimFlix_Note01>
+
+  <RimFlix_PreviewLabel>プレビュー：</RimFlix_PreviewLabel>
+
+  <RimFlix_AdjustSreenTitle>画面サイズと位置の調整</RimFlix_AdjustSreenTitle>
+  <RimFlix_XScale>X軸スケール</RimFlix_XScale>
+  <RimFlix_YScale>Y軸スケール</RimFlix_YScale>
+  <RimFlix_XOffset>X軸オフセット</RimFlix_XOffset>
+  <RimFlix_YOffset>Y軸オフセット</RimFlix_YOffset>
+  <RimFlix_DefaultScreen>初期値</RimFlix_DefaultScreen>
+
+  <RimFlix_AllowPawnLabel>番組変更を許可</RimFlix_AllowPawnLabel>
+  <RimFlix_AllowPawnDesc>このテレビを見ているときにポーンが番組を変更できるようにします</RimFlix_AllowPawnDesc>
+
+  <RimFlix_SelectShowLabel>番組を選択</RimFlix_SelectShowLabel>
+  <RimFlix_SelectShowDesc>このテレビに表示する番組を選択します</RimFlix_SelectShowDesc>
+
+  <RimFlix_NextShowLabel>次の番組</RimFlix_NextShowLabel>
+  <RimFlix_NextShowDesc>次の番組へ飛ばします</RimFlix_NextShowDesc>
+
+</LanguageData>
