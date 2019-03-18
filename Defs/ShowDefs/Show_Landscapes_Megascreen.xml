@@ -3,9 +3,9 @@
 <Defs>
 
   <RimFlix.ShowDef>
-    <defName>YuruCamp_Megascreen</defName>
-    <label>Yuru Camp - Megascreen</label>
-    <description>Images from Yuru Camp</description>
+    <defName>Landscapes_Megascreen</defName>
+    <label>Landscapes - Megascreen</label>
+    <description>Images of landscapes and scenery</description>
     <televisionDefs>
       <li>MegascreenTelevision</li>
     </televisionDefs>
@@ -13,23 +13,23 @@
     <sound />
     <frames>
       <li>
-        <texPath>Shows/YuruCamp/Megascreen_YuruCamp_00</texPath>
+        <texPath>Shows/Landscapes/Megascreen_Landscapes_00</texPath>
         <graphicClass>Graphic_Single</graphicClass>
       </li>
       <li>
-        <texPath>Shows/YuruCamp/Megascreen_YuruCamp_01</texPath>
+        <texPath>Shows/Landscapes/Megascreen_Landscapes_01</texPath>
         <graphicClass>Graphic_Single</graphicClass>
       </li>
       <li>
-        <texPath>Shows/YuruCamp/Megascreen_YuruCamp_02</texPath>
+        <texPath>Shows/Landscapes/Megascreen_Landscapes_02</texPath>
         <graphicClass>Graphic_Single</graphicClass>
       </li>
       <li>
-        <texPath>Shows/YuruCamp/Megascreen_YuruCamp_03</texPath>
+        <texPath>Shows/Landscapes/Megascreen_Landscapes_03</texPath>
         <graphicClass>Graphic_Single</graphicClass>
       </li>
       <li>
-        <texPath>Shows/YuruCamp/Megascreen_YuruCamp_04</texPath>
+        <texPath>Shows/Landscapes/Megascreen_Landscapes_04</texPath>
         <graphicClass>Graphic_Single</graphicClass>
       </li>
     </frames>
