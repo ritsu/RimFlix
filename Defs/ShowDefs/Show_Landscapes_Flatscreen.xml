@@ -3,9 +3,9 @@
 <Defs>
 
   <RimFlix.ShowDef>
-    <defName>YuruCamp_Flatscreen</defName>
-    <label>Yuru Camp - Flatscreen</label>
-    <description>Images from Yuru Camp</description>
+    <defName>Landscapes_Flatscreen</defName>
+    <label>Landscapes - Flatscreen</label>
+    <description>Images of landscapes and scenery</description>
     <televisionDefs>
       <li>FlatscreenTelevision</li>
     </televisionDefs>
@@ -13,23 +13,23 @@
     <sound />
     <frames>
       <li>
-        <texPath>Shows/YuruCamp/Flatscreen_YuruCamp_00</texPath>
+        <texPath>Shows/Landscapes/Flatscreen_Landscapes_00</texPath>
         <graphicClass>Graphic_Single</graphicClass>
       </li>
       <li>
-        <texPath>Shows/YuruCamp/Flatscreen_YuruCamp_01</texPath>
+        <texPath>Shows/Landscapes/Flatscreen_Landscapes_01</texPath>
         <graphicClass>Graphic_Single</graphicClass>
       </li>
       <li>
-        <texPath>Shows/YuruCamp/Flatscreen_YuruCamp_02</texPath>
+        <texPath>Shows/Landscapes/Flatscreen_Landscapes_02</texPath>
         <graphicClass>Graphic_Single</graphicClass>
       </li>
       <li>
-        <texPath>Shows/YuruCamp/Flatscreen_YuruCamp_03</texPath>
+        <texPath>Shows/Landscapes/Flatscreen_Landscapes_03</texPath>
         <graphicClass>Graphic_Single</graphicClass>
       </li>
       <li>
-        <texPath>Shows/YuruCamp/Flatscreen_YuruCamp_04</texPath>
+        <texPath>Shows/Landscapes/Flatscreen_Landscapes_04</texPath>
         <graphicClass>Graphic_Single</graphicClass>
       </li>
     </frames>
