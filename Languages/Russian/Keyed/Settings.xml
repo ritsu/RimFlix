@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <RimFlix_Title>RimFlix</RimFlix_Title>
+
+  <RimFlix_SecondsBetweenShowsLabel>Секунд до смены шоу колонистами</RimFlix_SecondsBetweenShowsLabel>
+  <RimFlix_SecondsBetweenShowsTooltip>Если телевизор разрешён для колонистов, он поменяет текущее шоу на следующее при просмотре колонистами через столько секунд.</RimFlix_SecondsBetweenShowsTooltip>
+  <RimFlix_SecondsBetweenShowsUnits>секунд</RimFlix_SecondsBetweenShowsUnits>
+  
+  <RimFlix_PlayAlwaysLabel>Играть шоу, когда колонисты не смотрят</RimFlix_PlayAlwaysLabel>
+  <RimFlix_PlayAlwaysTooltip>Когда включён, телевизор продолжит играть шоу, даже если не просматривается колонистами.</RimFlix_PlayAlwaysTooltip>  
+  <RimFlix_PowerConsumptionOnLabel>Потребление энергии при проигрывании</RimFlix_PowerConsumptionOnLabel>
+  <RimFlix_PowerConsumptionOnTooltip>Когда телевизор проигрывает шоу, его потребление энергии будет умножено на столько процентов. 100% - настройки RimWorld по умолчанию.</RimFlix_PowerConsumptionOnTooltip>
+  <RimFlix_PowerConsumptionOffLabel>Потребление энергии без проигрыша</RimFlix_PowerConsumptionOffLabel>
+  <RimFlix_PowerConsumptionOffTooltip>Когда телевизор ничего не проигрывает, его потребление энергии будет умножено на столько процентов. 100% - настройки RimWorld по умолчанию.</RimFlix_PowerConsumptionOffTooltip>
+  <RimFlix_DrawTypeLabel>Изменять размер изображения под рамки телевизора</RimFlix_DrawTypeLabel>
+  <RimFlix_DrawTypeTooltip>Изображения будут изменены в размерах в зависимости от этой найстройки.</RimFlix_DrawTypeTooltip>
+  <RimFlix_DrawTypeStretch>Растянуть</RimFlix_DrawTypeStretch>
+  <RimFlix_DrawTypeFit>Установить</RimFlix_DrawTypeFit>
+  <RimFlix_DrawTypeFill>Заполнить</RimFlix_DrawTypeFill>
+  
+  <RimFlix_ShowsLabel>Текущие Шоу</RimFlix_ShowsLabel>
+  <RimFlix_AddShowButton>Создать Шоу</RimFlix_AddShowButton>
+  <RimFlix_EditShowButton>Сохранить изменения</RimFlix_EditShowButton>
+  <RimFlix_AddShowTooltip>Создать новое шоу, используя изображения с локального диска</RimFlix_AddShowTooltip>
+  <RimFlix_AddShowTooltip2>Создать шоу из изображений находящихся в текущей папке</RimFlix_AddShowTooltip2>
+  <RimFlix_NameHeader>Показать Имя</RimFlix_NameHeader>
+  <RimFlix_FramesHeader>Изображения</RimFlix_FramesHeader>
+  <RimFlix_SecFrameHeader>Сек/Изо</RimFlix_SecFrameHeader>
+  <RimFlix_ActionsHeader>Действия</RimFlix_ActionsHeader>
+  <RimFlix_SortHeader>Сортировать по</RimFlix_SortHeader>
+  <RimFlix_EnableButton>Включить</RimFlix_EnableButton>
+  <RimFlix_DisableButton>Выключить</RimFlix_DisableButton>
+  <RimFlix_EditButton>Изменить</RimFlix_EditButton>
+  <RimFlix_DeleteButton>Удалить</RimFlix_DeleteButton>
+  <RimFlix_UserShowLabel>Пользовательский</RimFlix_UserShowLabel>
+  <RimFlix_ConfirmDelete>Уверены, что хотите удалить {0}?</RimFlix_ConfirmDelete>
+  
+  <RimFlix_CurrentDirectoryLabel>Текущая Дир:</RimFlix_CurrentDirectoryLabel>
+  <RimFlix_FramesLabel>{0} изображений в текущей директории</RimFlix_FramesLabel>
+  <RimFlix_FrameLabel>{0} изображений в текущей директории</RimFlix_FrameLabel>
+  <RimFlix_InfoLabel>Все изображения будут добавлены в шоу</RimFlix_InfoLabel>
+  <RimFlix_NameLabel>Показать Имя:</RimFlix_NameLabel>
+  <RimFlix_DefaultName>Моё Шоу</RimFlix_DefaultName>
+  <RimFlix_TimeLabel>Время между изображениями:</RimFlix_TimeLabel>
+  <RimFlix_TimeSeconds>секунд</RimFlix_TimeSeconds>
+  <RimFlix_TimeSecond>секунд</RimFlix_TimeSecond>
+  <RimFlix_TimeTicks>тиков</RimFlix_TimeTicks>
+  <RimFlix_PlayLabel>Играть шоу сейчас:</RimFlix_PlayLabel>
+  <RimFlix_CustomDescPrefix>Пользовательское шоу в {0} последний раз изменено {1}</RimFlix_CustomDescPrefix>
+  <RimFlix_CancelButton>Отменить</RimFlix_CancelButton>
+  <RimFlix_CancelTooltip>Закрыть окно не создавая шоу</RimFlix_CancelTooltip>
+  <RimFlix_FileNotFound>Файл не найден</RimFlix_FileNotFound>
+  <RimFlix_DirNotFound>Директория не найдена: {0}</RimFlix_DirNotFound>
+  <RimFlix_NoShowName>Пожалуйста, введите название шоу</RimFlix_NoShowName>
+  <RimFlix_NoTelevisionType>Пожалуйста, выберите хотя бы один телевизор</RimFlix_NoTelevisionType>
+  <RimFlix_LoadError>Ошибка при создании шоу. Больше информации в дебаге.</RimFlix_LoadError>
+  <RimFlix_Note01>При создании шоу с большими изображениями, может уйти некоторое время, пожалуйста, подождите.</RimFlix_Note01>
+
+  <RimFlix_PreviewLabel>Превью для</RimFlix_PreviewLabel>
+  
+  <RimFlix_AdjustSreenTitle>Изменить размер и позицию экрана</RimFlix_AdjustSreenTitle>
+  <RimFlix_XScale>Позиция X</RimFlix_XScale>
+  <RimFlix_YScale>Позиция Y</RimFlix_YScale>
+  <RimFlix_XOffset>Компенсация X</RimFlix_XOffset>
+  <RimFlix_YOffset>Компенсация Y</RimFlix_YOffset>
+  <RimFlix_DefaultScreen>По умолчанию</RimFlix_DefaultScreen>
+  
+  <RimFlix_AllowPawnLabel>Разрешить колонистам управлять </RimFlix_AllowPawnLabel>
+  <RimFlix_AllowPawnDesc>Разрешить колонистами менять шоу при просмотре</RimFlix_AllowPawnDesc>
+
+  <RimFlix_SelectShowLabel>Выбрать шоу</RimFlix_SelectShowLabel>
+  <RimFlix_SelectShowDesc>Выбрать шоу для проигрыша</RimFlix_SelectShowDesc>
+  
+  <RimFlix_NextShowLabel>Следующее шоу</RimFlix_NextShowLabel>
+  <RimFlix_NextShowDesc>Пропустить до следующего шоу</RimFlix_NextShowDesc>
+  
+</LanguageData>
