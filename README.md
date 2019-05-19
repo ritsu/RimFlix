@@ -37,6 +37,7 @@ You can create and share RimFlix shows by uploading them to Steam Workshop. No c
 
 ## Translators
   * Japanese translation by Proxyer
+  * Russian translation by Nyyrikki
 
 If you would like to help translate the settings and menu options, please contact me or submit a pull request. All translatable strings are in [Settings.xml](https://github.com/ritsu/RimFlix/blob/master/Languages/English/Keyed/Settings.xml). Thanks!
 
