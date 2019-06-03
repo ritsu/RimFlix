@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LanguageData> 
+
+  <RimFlix_Title>RimFlix-自定义电视画面</RimFlix_Title>  
+  
+  <RimFlix_SecondsBetweenShowsLabel>直到观看者改变节目前的观看时间</RimFlix_SecondsBetweenShowsLabel>  
+  <RimFlix_SecondsBetweenShowsTooltip>如果一台电视机被设置为允许更换节目，那么当殖民者观看同一节目设定的时间后，切换节目。</RimFlix_SecondsBetweenShowsTooltip>  
+  <RimFlix_SecondsBetweenShowsUnits>秒</RimFlix_SecondsBetweenShowsUnits>  
+  <RimFlix_PlayAlwaysLabel>没有观看者也播放节目</RimFlix_PlayAlwaysLabel>  
+  <RimFlix_PlayAlwaysTooltip>如果启用，电视将一直播放节目，即使没有观看者。</RimFlix_PlayAlwaysTooltip>  
+  <RimFlix_PowerConsumptionOnLabel>播放节目时的功耗</RimFlix_PowerConsumptionOnLabel>  
+  <RimFlix_PowerConsumptionOnTooltip>当播放节目时，其功耗乘以设定百分比。100%则与RimWorld默认值相同。</RimFlix_PowerConsumptionOnTooltip>  
+  <RimFlix_PowerConsumptionOffLabel>不播放节目时的功耗</RimFlix_PowerConsumptionOffLabel>  
+  <RimFlix_PowerConsumptionOffTooltip>当不播放任何内容时，其功耗乘以设定百分比。100%则与RimWorld默认值相同。</RimFlix_PowerConsumptionOffTooltip>  
+  <RimFlix_DrawTypeLabel>调整电视屏幕显示的图像方法</RimFlix_DrawTypeLabel>  
+  <RimFlix_DrawTypeTooltip>图像将根据所选方法调整屏幕缩放效果。</RimFlix_DrawTypeTooltip>  
+  <RimFlix_DrawTypeStretch>拉伸</RimFlix_DrawTypeStretch>  
+  <RimFlix_DrawTypeFit>适应屏幕</RimFlix_DrawTypeFit>  
+  <RimFlix_DrawTypeFill>填充</RimFlix_DrawTypeFill>  
+  
+  <RimFlix_ShowsLabel>当前节目数量</RimFlix_ShowsLabel>  
+  <RimFlix_AddShowButton>创建节目</RimFlix_AddShowButton>  
+  <RimFlix_EditShowButton>保存更改</RimFlix_EditShowButton>  
+  <RimFlix_AddShowTooltip>使用本地磁盘上的图像创建新节目</RimFlix_AddShowTooltip>  
+  <RimFlix_AddShowTooltip2>使用当前目录中的所有图像创建新节目</RimFlix_AddShowTooltip2>  
+  <RimFlix_NameHeader>节目名称</RimFlix_NameHeader>  
+  <RimFlix_FramesHeader>图像数量</RimFlix_FramesHeader>  
+  <RimFlix_SecFrameHeader>图像间隔时间</RimFlix_SecFrameHeader>  
+  <RimFlix_ActionsHeader>措施</RimFlix_ActionsHeader>  
+  <RimFlix_SortHeader>排序方法/</RimFlix_SortHeader>  
+  <RimFlix_EnableButton>启用</RimFlix_EnableButton>  
+  <RimFlix_DisableButton>禁用</RimFlix_DisableButton>  
+  <RimFlix_EditButton>编辑</RimFlix_EditButton>  
+  <RimFlix_DeleteButton>删除</RimFlix_DeleteButton>  
+  <RimFlix_UserShowLabel>自定义</RimFlix_UserShowLabel>  
+  <RimFlix_ConfirmDelete>确认删除{0}？</RimFlix_ConfirmDelete>  
+  
+  <RimFlix_CurrentDirectoryLabel>当前目录:</RimFlix_CurrentDirectoryLabel>  
+  <RimFlix_FramesLabel>{0}-当前目录中的图像数量</RimFlix_FramesLabel>  
+  <RimFlix_FrameLabel>{0}-当前目录中的图像数量</RimFlix_FrameLabel>  
+  <RimFlix_InfoLabel>将添加当前目录所有图像作为节目</RimFlix_InfoLabel>  
+  <RimFlix_NameLabel>节目名称:</RimFlix_NameLabel>  
+  <RimFlix_DefaultName>我的节目</RimFlix_DefaultName>  
+  <RimFlix_TimeLabel>图像间隔时间:</RimFlix_TimeLabel>  
+  <RimFlix_TimeSeconds>秒</RimFlix_TimeSeconds>  
+  <RimFlix_TimeSecond>秒</RimFlix_TimeSecond>  
+  <RimFlix_TimeTicks>ticks</RimFlix_TimeTicks>  
+  <RimFlix_PlayLabel>该节目播放于:</RimFlix_PlayLabel>  
+  <RimFlix_CustomDescPrefix>自定义目录位于{0}，最后修改于{1}</RimFlix_CustomDescPrefix>  
+  <RimFlix_CancelButton>取消</RimFlix_CancelButton>  
+  <RimFlix_CancelTooltip>关闭窗口而不创建新节目</RimFlix_CancelTooltip>  
+  <RimFlix_FileNotFound>找不到文件</RimFlix_FileNotFound>  
+  <RimFlix_DirNotFound>找不到目录:{0}</RimFlix_DirNotFound>  
+  <RimFlix_NoShowName>请输入节目名称</RimFlix_NoShowName>  
+  <RimFlix_NoTelevisionType>请至少选择一种电视</RimFlix_NoTelevisionType>  
+  <RimFlix_LoadError>尝试创建节目时出错。详细信息请参阅调试日志。</RimFlix_LoadError>  
+  <RimFlix_Note01>如果你创建了一个带有多张高质量图片的节目，可能需要一段时间来加载纹理。请耐心点。</RimFlix_Note01>  
+  
+  <RimFlix_PreviewLabel>预览</RimFlix_PreviewLabel>  
+  
+  <RimFlix_AdjustSreenTitle>调整屏幕大小和位置</RimFlix_AdjustSreenTitle>  
+  <RimFlix_XScale>电视宽度</RimFlix_XScale>  
+  <RimFlix_YScale>电视长度</RimFlix_YScale>  
+  <RimFlix_XOffset>水平偏移量</RimFlix_XOffset>  
+  <RimFlix_YOffset>垂直偏移量</RimFlix_YOffset>  
+  <RimFlix_DefaultScreen>默认</RimFlix_DefaultScreen>  
+  
+  <RimFlix_AllowPawnLabel>允许观看者控制</RimFlix_AllowPawnLabel>  
+  <RimFlix_AllowPawnDesc>允许观看者在看电视时换节目</RimFlix_AllowPawnDesc>  
+  
+  <RimFlix_SelectShowLabel>选择节目</RimFlix_SelectShowLabel>  
+  <RimFlix_SelectShowDesc>选择要在电视上显示的节目</RimFlix_SelectShowDesc>  
+  
+  <RimFlix_NextShowLabel>下一个节目</RimFlix_NextShowLabel>  
+  <RimFlix_NextShowDesc>跳转下一个节目</RimFlix_NextShowDesc> 
+  
+</LanguageData>
