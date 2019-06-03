@@ -36,6 +36,7 @@ You can add shows others have created either from Steam Workshop or Github. <a h
 You can create and share RimFlix shows by uploading them to Steam Workshop. No coding is required. You only need the image files and an XML file that defines each show. For an example of a mod with several shows featuring animation loops, see <a href = "https://github.com/ritsu/RimFlix-Anime-Loops">RimFlix - Anime Loops</a>. Other players can add your shows to their game as long as they have the RimFlix mod installed. 
 
 ## Translators
+  - Chinese (Simplified) translation by HawnHan
   * Japanese translation by Proxyer
   * Russian translation by Nyyrikki
 
