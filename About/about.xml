@@ -4,7 +4,9 @@
     <author>aznplucky</author>
     <supportedVersions>
         <li>1.0</li>
+        <li>1.1</li>
     </supportedVersions>
+    <packageId>aznplucky.RimFlix</packageId>
     <description>Create shows from custom images and play them on television screens.
 
 Players:
