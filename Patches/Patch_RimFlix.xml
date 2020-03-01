@@ -11,10 +11,24 @@
     <xpath>Defs/ThingDef[defName = 'TubeTelevision' or defName = 'FlatscreenTelevision' or defName = 'MegascreenTelevision']</xpath>
     <value>
       <drawerType>RealtimeOnly</drawerType>
-      <tickerType>Normal</tickerType>
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName = 'TubeTelevision' or defName = 'FlatscreenTelevision' or defName = 'MegascreenTelevision']/tickerType</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName = 'TubeTelevision' or defName = 'FlatscreenTelevision' or defName = 'MegascreenTelevision']</xpath>
+      <value>
+        <tickerType>Normal</tickerType>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName = 'TubeTelevision' or defName = 'FlatscreenTelevision' or defName = 'MegascreenTelevision']</xpath>
+      <value>
+        <tickerType>Normal</tickerType>
+      </value>
+    </nomatch>
+  </Operation>
   
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="TubeTelevision"]/comps</xpath>
