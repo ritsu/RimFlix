@@ -521,7 +521,7 @@ namespace RimFlix
             // Adjust screen button
             Text.Font = GameFont.Medium;
             Vector2 titleSize = Text.CalcSize("RimFlix_Title".Translate());
-            Rect adjustRect = new Rect(titleSize.x + 180, 2, this.AdjustTex.width, this.AdjustTex.height);
+            Rect adjustRect = new Rect(titleSize.x + 180, 2, 24, 24);
             TooltipHandler.TipRegion(adjustRect, "RimFlix_AdjustSreenTitle".Translate());
             if (Widgets.ButtonImage(adjustRect, this.AdjustTex))
             {
