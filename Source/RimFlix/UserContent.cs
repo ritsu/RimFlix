@@ -5,6 +5,7 @@ using System.Linq;
 using Verse;
 using UnityEngine;
 using System.Text;
+using RimWorld.IO;
 
 namespace RimFlix
 {
@@ -115,9 +116,11 @@ namespace RimFlix
                 string internalPath = filePath.Replace('\\', '/');
                 if (!RimFlixContent.contentList.ContainsKey(internalPath))
                 {
-                    LoadedContentItem<Texture2D> loadedContentItem = ModContentLoader<Texture2D>.LoadItem(filePath);
-                    loadedContentItem.internalPath = internalPath;
-                    RimFlixContent.contentList.Add(loadedContentItem.internalPath, loadedContentItem.contentItem);
+                    string path = Path.GetDirectoryName(filePath);
+                    string file = Path.GetFileName(filePath);
+                    VirtualFile virtualFile = AbstractFilesystem.GetDirectory(path).GetFile(file);
+                    LoadedContentItem<Texture2D> loadedContentItem = ModContentLoader<Texture2D>.LoadItem(virtualFile);
+                    RimFlixContent.contentList.Add(internalPath, loadedContentItem.contentItem);
                 }
                 userShow.frames.Add(new GraphicData
                 {
