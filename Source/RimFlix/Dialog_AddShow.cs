@@ -42,6 +42,11 @@ namespace RimFlix
         private Vector2 drivesScrollPos = Vector2.zero;
         private Vector2 filesScrollPos = Vector2.zero;
 
+        // Make abnormally large directories manageable
+        private int fileCount = 0;
+        private int dirCount = 0;
+        private int maxFileCount = 500;
+
         // Options panel
         private int framesCount;
         private string showName;
@@ -216,6 +221,8 @@ namespace RimFlix
                 this.dirs = Enumerable.Empty<DirectoryInfo>();
                 this.files = Enumerable.Empty<FileInfo>();
             }
+            this.fileCount = this.files.Count();
+            this.dirCount = this.dirs.Count();
             this.lastPath = this.currentPath;
             settings.lastPath = this.currentPath;
             this.dirInfoDirty = false;
@@ -232,13 +239,24 @@ namespace RimFlix
 
             Text.Font = GameFont.Small;
             UpdateDirInfo(this.currentPath);
-            int count = this.dirs.Count() + this.files.Count();
+            int count = this.fileCount + this.dirCount;
             if (dirInfo.Parent != null)
             {
                 count++;
             }
             float buttonHeight = Text.LineHeight;
-            Rect rectView = new Rect(0, 0, rect.width - this.scrollBarWidth, buttonHeight * count);
+
+            // Fix for directories with abnormally large file counts
+            Rect rectView;
+            if (this.fileCount > this.maxFileCount)
+            {
+                rectView = new Rect(0, 0, rect.width - this.scrollBarWidth, buttonHeight * dirCount + 1);
+            }
+            else
+            {
+                rectView = new Rect(0, 0, rect.width - this.scrollBarWidth, buttonHeight * count);
+            }
+
             Widgets.BeginScrollView(rect, ref this.filesScrollPos, rectView);
             int index = 0;
 
@@ -286,30 +304,39 @@ namespace RimFlix
             }
 
             // Files
-            foreach (FileInfo f in files)
+            if (this.fileCount > this.maxFileCount)
             {
-                this.framesCount++;
-                //Rect rectButton = new Rect(rectView.x, rectView.y + index * buttonHeight, rectView.width + this.scrollBarWidth, buttonHeight);
-                if (index % 2 == 0)
+                // Too many files to display
+                Widgets.Label(new Rect(rectView.x, rectView.y + buttonHeight, rectView.width + this.scrollBarWidth, buttonHeight), 
+                    $"Too many files to display ({this.fileCount} files, max {this.maxFileCount})");
+            }
+            else
+            {
+                foreach (FileInfo f in files)
                 {
-                    Widgets.DrawAltRect(rectButton);
-                }
-                Widgets.DrawHighlightIfMouseover(rectButton);
-                if (Widgets.ButtonText(rectButton, $" {f.Name}", false, false, this.filesTextColor, true))
-                {
-                    f.Refresh();
-                    if (f.Exists)
+                    this.framesCount++;
+                    //Rect rectButton = new Rect(rectView.x, rectView.y + index * buttonHeight, rectView.width + this.scrollBarWidth, buttonHeight);
+                    if (index % 2 == 0)
                     {
-                        Find.WindowStack.Add(new Dialog_Preview(f.FullName, f.Name));
+                        Widgets.DrawAltRect(rectButton);
                     }
-                    else
+                    Widgets.DrawHighlightIfMouseover(rectButton);
+                    if (Widgets.ButtonText(rectButton, $" {f.Name}", false, false, this.filesTextColor, true))
                     {
-                        Find.WindowStack.Add(new Dialog_MessageBox($"{"RimFlix_FileNotFound".Translate()}: {f.FullName}"));
-                        this.dirInfoDirty = true;
+                        f.Refresh();
+                        if (f.Exists)
+                        {
+                            Find.WindowStack.Add(new Dialog_Preview(f.FullName, f.Name));
+                        }
+                        else
+                        {
+                            Find.WindowStack.Add(new Dialog_MessageBox($"{"RimFlix_FileNotFound".Translate()}: {f.FullName}"));
+                            this.dirInfoDirty = true;
+                        }
                     }
+                    rectButton.y += buttonHeight;
+                    index++;
                 }
-                rectButton.y += buttonHeight;
-                index++;
             }
             Widgets.EndScrollView();
         }
