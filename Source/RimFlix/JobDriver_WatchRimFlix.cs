@@ -9,9 +9,11 @@ namespace RimFlix
         {
             Building thing = (Building) base.TargetA.Thing;
 
-            // Todo: add try-catch (TryGetComp?) in case another mod adds a new tv type
-            RimFlix.CompScreen screen = thing.GetComp<RimFlix.CompScreen>();
-            screen.SleepTimer = 10;
+            RimFlix.CompScreen screen = thing.TryGetComp<RimFlix.CompScreen>();
+            if (screen != null)
+            {
+                screen.SleepTimer = 10;
+            }
 
             base.WatchTickAction();
         }
