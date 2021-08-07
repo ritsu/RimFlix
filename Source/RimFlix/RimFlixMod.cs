@@ -8,7 +8,7 @@ namespace RimFlix
 {
     public class RimFlixMod : Mod
     {
-        private RimFlixSettings settings;
+        private readonly RimFlixSettings settings;
         private List<ShowDef> shows = new List<ShowDef>();
         private List<ShowDef> Shows
         {
@@ -27,7 +27,7 @@ namespace RimFlix
                         {
                             show.SortName = $"{show.modContentPack.Name} : {show.label}";
                         }
-                        show.disabled = this.settings.DisabledShows == null ? false : this.settings.DisabledShows.Contains(show.defName);
+                        show.disabled = settings.DisabledShows != null && settings.DisabledShows.Contains(show.defName);
                     }
                     this.shows = GetSortedShows(false);
                     this.ShowUpdateTime = RimFlixSettings.showUpdateTime;
@@ -38,7 +38,7 @@ namespace RimFlix
         }
         public double ShowUpdateTime = 0;
 
-        private Dictionary<string, int> showCounts = new Dictionary<string, int>()
+        private readonly Dictionary<string, int> showCounts = new Dictionary<string, int>()
         {
             { "TubeTelevision", 0 },
             { "FlatscreenTelevision", 0 },
@@ -174,10 +174,10 @@ namespace RimFlix
         }
 
         private Vector2 scrollPos = Vector2.zero;
-        private float scrollBarWidth = 16f;
+        private readonly float scrollBarWidth = 16f;
 
         private SortType sortType = SortType.None;
-        private bool[] sortAsc = new bool[Enum.GetNames(typeof(SortType)).Length];
+        private readonly bool[] sortAsc = new bool[Enum.GetNames(typeof(SortType)).Length];
 
         public RimFlixMod(ModContentPack content) : base(content)
         {

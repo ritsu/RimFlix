@@ -6,23 +6,23 @@ namespace RimFlix
 {
     class Dialog_Preview : Window
     {
-        private float padding = 12;
-        private float headerHeight = 40;
-        private float texDim = 80;
+        private readonly float padding = 12;
+        private readonly float headerHeight = 40;
+        private readonly float texDim = 80;
 
-        private string path;
-        private string name;
-        private Texture2D frameTex;
+        private readonly string path;
+        private readonly string name;
+        private readonly Texture2D frameTex;
 
-        private Texture tubeTex;
-        private Texture flatTex;
-        private Texture megaTex;
+        private readonly Texture tubeTex;
+        private readonly Texture flatTex;
+        private readonly Texture megaTex;
 
         private Vector3 tubeVec;
         private Vector3 flatVec;
         private Vector3 megaVec;
 
-        private RimFlixSettings settings;
+        private readonly RimFlixSettings settings;
 
         public Dialog_Preview(string path, string name)
         {
