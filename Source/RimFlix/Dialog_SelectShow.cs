@@ -7,10 +7,10 @@ namespace RimFlix
 {
     public class Dialog_SelectShow : Window
     {
-        private CompScreen screen;
+        private readonly CompScreen screen;
         private Vector2 scrollPosition;
-        private float buttonHeight = 32f;
-        private float buttonMargin = 2f;
+        private readonly float buttonHeight = 32f;
+        private readonly float buttonMargin = 2f;
 
         public Dialog_SelectShow(CompScreen screen)
         {

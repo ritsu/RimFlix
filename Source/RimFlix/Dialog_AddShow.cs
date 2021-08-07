@@ -11,27 +11,27 @@ namespace RimFlix
 {
     class Dialog_AddShow : Window
     {
-        private RimFlixSettings settings;
-        private RimFlixMod mod;
-        private UserShowDef currentUserShow;
+        private readonly RimFlixSettings settings;
+        private readonly RimFlixMod mod;
+        private readonly UserShowDef currentUserShow;
 
         // Widget sizes
-        private float padding = 8;
-        private float scrollBarWidth = 16;
-        private float drivesWidth = 80;
-        private float filesWidth = 370;
-        private float optionsWidth = 250;
-        private float pathHeight = Text.LineHeight;
-        private float buttonsHeight = 32;
-        private float timeInputWidth;
-        private float timeUnitWidth;
+        private readonly float padding = 8;
+        private readonly float scrollBarWidth = 16;
+        private readonly float drivesWidth = 80;
+        private readonly float filesWidth = 370;
+        private readonly float optionsWidth = 250;
+        private readonly float pathHeight = Text.LineHeight;
+        private readonly float buttonsHeight = 32;
+        private readonly float timeInputWidth;
+        private readonly float timeUnitWidth;
 
         // File explorer panel
-        private string[] drives;
+        private readonly string[] drives;
         private string currentPath;
         private string lastPath = "";
-        private Regex pathValidator;
-        private Texture2D refreshTex;
+        private readonly Regex pathValidator;
+        private readonly Texture2D refreshTex;
         private bool dirInfoDirty = true;
         private DirectoryInfo dirInfo;
         private IEnumerable<DirectoryInfo> dirs;
@@ -45,15 +45,15 @@ namespace RimFlix
         // Make abnormally large directories manageable
         private int fileCount = 0;
         private int dirCount = 0;
-        private int maxFileCount = 500;
+        private readonly int maxFileCount = 500;
 
         // Options panel
         private int framesCount;
         private string showName;
         private float timeValue;
         private TimeUnit timeUnit = TimeUnit.Second;
-        private string[] timeUnitLabels;
-        private List<FloatMenuOption> timeUnitMenu;
+        private readonly string[] timeUnitLabels;
+        private readonly List<FloatMenuOption> timeUnitMenu;
         private bool playTube;
         private bool playFlat;
         private bool playMega;
